@@ -111,7 +111,7 @@ input {
     #ffffff 2%, 
     #ffffff 100%
   );
-    height: 100px;
+    height: 120px;
     border-radius: 10px;
     padding: 30px 30px;
 }
@@ -129,7 +129,30 @@ input {
     padding: 30px;
     border-radius: 10px;
 }
+.announcement-headings > * {
+    font-size: 0.8rem;
+}
+.announcement-headings > hr {
+    margin: 10px 0;
+}
+.announcement-headings > h3 {
+    margin-bottom: 2px;
+}
 
+.trending {
+    margin-top: 20px;
+}
+.trend-table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 27px 0;
+}
+.trend-list > div > p {
+    font-size: 0.8rem;
+}
 .trend-list {
     display: flex;
+    gap: 15px;
+    padding: 10px 30px 10px;
 }
