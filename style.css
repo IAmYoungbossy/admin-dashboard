@@ -39,15 +39,15 @@ input {
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 30px;
+    gap: 20px;
     padding: 0px 10px;
 }
 .notification > p:only-of-type {
     font-weight: bold;
 }
 [alt="Display-picture"] {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     background-color: rgb(194, 194, 108);
 }
