@@ -42,6 +42,9 @@ input {
     gap: 30px;
     padding: 0px 10px;
 }
+.notification > p:only-of-type {
+    font-weight: bold;
+}
 [alt="Display-picture"] {
     width: 30px;
     height: 30px;
@@ -60,6 +63,13 @@ input {
     grid-template-columns: 1fr 4fr;
     align-items: center;
 }
+.user-icon > div {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.user-icon > div > p:first-child {
+    font-size: 0.8rem;
+}
 .user-icon>.main-dp {
     width: 70px;
     height: 70px;
@@ -71,8 +81,8 @@ input {
     list-style: none;
 }
 .major-headings>ul>li {
-    padding: 10px 15px;
-    width: 80px;
+    padding: 8px 15px;
+    width: 50px;
     border-radius: 20px;
     background-color: #1992d4;
     text-align: center;
