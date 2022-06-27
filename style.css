@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(2, min-content);
+    position: relative;
 }
 
 .hearder {
@@ -57,6 +58,8 @@ input {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     background-color: #ffffff;
+    position: relative;
+    box-shadow: 0px 3px 3px #abb0b6;
 }
 .user-icon {
     display: grid;
