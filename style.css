@@ -69,6 +69,7 @@ input {
 .user-icon > div {
     font-weight: bolder;
     font-size: 1.2rem;
+    padding-left: 10px;
 }
 .user-icon > div > p:first-child {
     font-size: 0.8rem;
