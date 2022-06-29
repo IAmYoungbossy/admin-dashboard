@@ -148,6 +148,11 @@ input {
     padding: 30px 30px;
     position: relative;
 }
+.post> p {
+    color: grey;
+    font-size: 0.9rem;
+    padding-top: 2px;
+}
 .engagement-icons {
     display: flex;
     justify-content: end;
