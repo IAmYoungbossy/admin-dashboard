@@ -151,8 +151,11 @@ input {
 .post> p {
     color: grey;
     font-size: 0.9rem;
-    padding-top: 2px;
+    padding-top: 3px;
     margin-bottom: 20px;
+}
+.post > h3 {
+    font-size: 0.95rem;
 }
 .engagement-icons {
     display: flex;
@@ -185,6 +188,9 @@ input {
 }
 .announcement-headings > h3 {
     margin-bottom: 2px;
+}
+.announcement-headings > p {
+    color: grey;
 }
 
 .trending {
