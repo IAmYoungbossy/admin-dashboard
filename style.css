@@ -127,6 +127,12 @@ input {
     grid-area: 2/2/3/3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    position: relative;
+}
+.article > h3 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
 }
 .cards {
     display: grid;
@@ -172,10 +178,10 @@ input {
 }
 
 .announcements {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .announcement-headings {
-    margin-top: 13px;
+    margin-top: 8px;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
