@@ -195,6 +195,7 @@ input {
 
 .trending {
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 .trend-table {
     background-color: #ffffff;
@@ -203,10 +204,11 @@ input {
     padding: 27px 0;
 }
 .trend-list > div > p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .trend-list {
     display: flex;
+    align-items: center;
     gap: 15px;
-    padding: 10px 30px 10px;
+    padding: 10px 30px 0px;
 }
