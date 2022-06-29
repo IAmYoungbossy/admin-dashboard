@@ -149,7 +149,6 @@ input {
     position: relative;
 }
 .engagement-icons {
-    border: 1px solid black;
     display: flex;
     justify-content: end;
     padding-top: 20px;
