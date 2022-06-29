@@ -146,6 +146,14 @@ input {
     height: 1fr;
     border-radius: 10px;
     padding: 30px 30px;
+    position: relative;
+}
+.engagement-icons {
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    gap: 30px;
 }
 .aside {
     background-color: #d1d7de;
