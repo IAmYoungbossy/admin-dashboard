@@ -153,6 +153,7 @@ input {
     justify-content: end;
     padding-top: 20px;
     gap: 30px;
+    color: grey;
 }
 .aside {
     background-color: #d1d7de;
